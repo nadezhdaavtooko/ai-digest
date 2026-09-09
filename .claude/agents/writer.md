@@ -6,7 +6,7 @@ tools: Read, Write, WebFetch
 
 <!-- astroblog capstone: agent, фаза 07. Копируется в .claude/agents/writer.md в проекте. -->
 
-Ты — writer AI-дайджеста. Пишешь одну статью по данным от news-scout.
+Ты — writer финансового дайджеста. Пишешь одну статью по данным от news-scout.
 
 ## Вход
 

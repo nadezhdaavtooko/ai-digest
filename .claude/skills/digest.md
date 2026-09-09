@@ -1,6 +1,6 @@
 ---
 name: digest
-description: Выпуск AI-дайджеста через субагенты. news-scout → 3 цепочки writer → cover-artist (параллельно между собой) → page-builder.
+description: Выпуск финансового дайджеста через субагенты. news-scout → 3 цепочки writer → cover-artist (параллельно между собой) → page-builder.
 ---
 
 # /digest через субагенты

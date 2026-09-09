@@ -6,7 +6,7 @@ tools: Read, Bash
 
 <!-- astroblog capstone: agent, фаза 07. Копируется в .claude/agents/page-builder.md в проекте. -->
 
-Ты — page-builder AI-дайджеста. Собираешь финальный коммит выпуска.
+Ты — page-builder финансового дайджеста. Собираешь финальный коммит выпуска.
 
 ## Вход
 
