@@ -1,0 +1,71 @@
+{
+	"coverUrl": "https://replicate.delivery/pbxt/fixture-test-cover-16x9.jpg",
+	"themes": [
+		{
+			"id": "theme-1",
+			"title": "Изменение лимита по УСН на 2027 год",
+			"summary": "Минфин предложил пересмотреть лимит доходов для применения упрощённой системы налогообложения.",
+			"primarySource": {
+				"url": "https://www.nalog.gov.ru/rn77/news/fixture-usn-limit",
+				"title": "ФНС: новый лимит доходов по УСН"
+			},
+			"secondarySource": {
+				"url": "https://www.minfin.gov.ru/ru/press/fixture-usn-limit",
+				"title": "Минфин: проект изменений по УСН"
+			},
+			"tags": ["налоги", "усн", "лимиты"]
+		},
+		{
+			"id": "theme-2",
+			"title": "ЦБ изменил ключевую ставку",
+			"summary": "Банк России принял решение по ключевой ставке, что повлияет на стоимость кредитов для бизнеса.",
+			"primarySource": {
+				"url": "https://www.cbr.ru/press/fixture-key-rate",
+				"title": "Банк России: решение по ключевой ставке"
+			},
+			"secondarySource": {
+				"url": "https://www.rbc.ru/finances/fixture-key-rate",
+				"title": "РБК: реакция рынка на решение ЦБ"
+			},
+			"tags": ["цб", "ставка", "кредиты"]
+		},
+		{
+			"id": "theme-3",
+			"title": "Новые сроки сдачи отчётности по НДС",
+			"summary": "ФНС уточнила сроки подачи деклараций по НДС для отдельных категорий налогоплательщиков.",
+			"primarySource": {
+				"url": "https://www.nalog.gov.ru/rn77/news/fixture-nds-deadline",
+				"title": "ФНС: сроки отчётности по НДС"
+			},
+			"secondarySource": {
+				"url": "https://www.consultant.ru/law/fixture-nds-deadline",
+				"title": "КонсультантПлюс: разъяснение по срокам НДС"
+			},
+			"tags": ["налоги", "ндс", "отчётность"]
+		},
+		{
+			"id": "theme-4",
+			"title": "Субсидии для малого бизнеса в 2027 году",
+			"summary": "Правительство утвердило программу субсидий для малого и среднего бизнеса на следующий год.",
+			"primarySource": {
+				"url": "https://www.economy.gov.ru/material/fixture-subsidii",
+				"title": "Минэкономразвития: программа субсидий"
+			},
+			"secondarySource": {
+				"url": "https://www.interfax.ru/business/fixture-subsidii",
+				"title": "Интерфакс: детали программы субсидий"
+			},
+			"tags": ["субсидии", "малый бизнес", "льготы"]
+		}
+	],
+	"exampleArticle": {
+		"themeId": "theme-1",
+		"title": "Минфин пересмотрит лимит доходов по УСН",
+		"description": "Минфин предложил изменить лимит доходов для применения упрощённой системы налогообложения с 2027 года.",
+		"pubDate": "2026-09-18",
+		"source": "https://www.nalog.gov.ru/rn77/news/fixture-usn-limit",
+		"tags": ["налоги", "усн", "лимиты"],
+		"body": "Плейсхолдер тела статьи для проверки формы frontmatter. Реальный текст появится на этапе интеграции writer с Tavily.",
+		"slug": "minfin-peresmotrit-limit-dohodov-po-usn"
+	}
+}

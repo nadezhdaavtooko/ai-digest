@@ -26,3 +26,6 @@ pnpm-debug.log*
 
 # runtime logs from PostToolUse hook
 logs/
+
+# вывод локального прогона заглушек пайплайна (scripts/run-digest-stub.mjs)
+tmp/
