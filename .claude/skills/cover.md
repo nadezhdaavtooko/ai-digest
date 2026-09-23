@@ -12,7 +12,7 @@ description: Генерирует обложку 16:9 для статьи дай
 ## Действия
 
 1. Вызови `mcp__replicate__execute` с моделью `black-forest-labs/flux-schnell`:
-   - `prompt`: «Editorial illustration about {{topic}}, minimalist, flat colors, tech magazine style, 16:9 aspect ratio, no text».
+   - `prompt`: «Editorial illustration about {{topic}}, minimalist, flat colors, financial/business magazine style, 16:9 aspect ratio, no text».
    - `aspect_ratio`: `16:9`.
    - `output_format`: `webp`.
 2. Дождись ответа, возьми первый URL из массива `output`.

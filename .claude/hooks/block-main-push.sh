@@ -3,9 +3,11 @@
 
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+JQ="$SCRIPT_DIR/../../../tools/jq/jq.exe"
 DATA=$(cat)
-TOOL=$(echo "$DATA" | jq -r '.tool_name // ""')
-CMD=$(echo "$DATA" | jq -r '.tool_input.command // ""')
+TOOL=$(echo "$DATA" | "$JQ" -r '.tool_name // ""')
+CMD=$(echo "$DATA" | "$JQ" -r '.tool_input.command // ""')
 
 if [ "$TOOL" != "Bash" ]; then
   exit 0
