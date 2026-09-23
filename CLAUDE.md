@@ -104,3 +104,4 @@ GitHub Actions по расписанию (cron) → news-scout → writer → co
 - Ветка по умолчанию `main`.
 - С фазы 08 PreToolUse-хук блокирует прямой push в `main`. Автоматика коммитит в ветку `digest/auto`, слияние в `main` — вручную по желанию.
 - Запрещены `git push --force`, `git reset --hard`, `git commit --amend`.
+- Коммиты не должны содержать footer-строк автоматической атрибуции (`Co-Authored-By`, `Generated-By`, `Signed-off-by` и т.п.), если пользователь явно не попросил об обратном.
